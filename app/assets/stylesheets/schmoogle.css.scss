@@ -1,0 +1,31 @@
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+  }
+}
+
+.nav > li > .active,
+.nav > li > a:hover {
+  color: #ffffff;
+}
+
+.navigation-container {
+  border: solid #333;
+  background-color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
