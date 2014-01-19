@@ -34,3 +34,27 @@ body {
   border: solid #f4f4f4;
   padding: 20px 0 20px 10px;
 }
+
+.main-container {
+  width: 500px;
+  margin-left: 150px;
+}
+
+.search-result-list {
+  list-style: none;
+  padding: 0;
+}
+
+.search-result {
+  margin-bottom: 30px;
+}
+
+.search-result-title {
+  margin: 0;
+}
+
+.search-result-source {
+  display: block;
+  font-style: normal;
+  color: #009933;
+}
